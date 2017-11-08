@@ -4,8 +4,6 @@ import './App.css';
 import styled  from "styled-components";
 
 import Body from './components/body/Body.js';
-import Chat from './components/custSupport/Chat.js';
-
 
 // Create a Title component that'll render an <h1> tag with some styles
 const Title = styled.h1`
@@ -25,7 +23,6 @@ class App extends Component {
     return (
       <div className="App">
         <Body />
-        <Chat />
       </div>
     );
   }

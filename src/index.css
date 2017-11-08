@@ -1,15 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: 'Titillium Web','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  color: #404040;
+  line-height: 1.42857143;
+  letter-spacing: 1px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.menu-container {
+  color: #d6a156;;
+  background-color: #fff;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;    /* Add this */
 }
 
-li {
-  float: left;
+.menu {
+  border: 1px solid rgb(219, 17, 17);  /* For debugging */
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-container {
+  background-color: #fafafa;  /* gray */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;    /* Add this */
+}
+
+.profile {
+  border: 1px solid rgb(194, 17, 17);  /* For debugging */
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
 }
