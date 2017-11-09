@@ -5,9 +5,9 @@ import MenuRight from './menu_right/MenuRight.js'
 const Navbar = () => (
   <div class='menu-container'>
     <div class="menu">
-      <div class="col"><pre>img</pre></div>
-      <div class="col6"><MenuCenter /></div>
-      <div class="col"><MenuRight /></div>
+      <img class="logo" src="wordmark-square-gold.svg" />
+      <div><MenuCenter /></div>
+      <div><MenuRight /></div>
     </div>
   </div>
 )

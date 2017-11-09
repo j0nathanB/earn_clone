@@ -8,7 +8,7 @@ const Body = () => (
     <div><Navbar /></div>
     <div className="profile-container">
       <div className="profile">
-        <div><Panel /></div>
+        <div className="panel"><Panel /></div>
         <div><Profile /></div> 
       </div>
     </div>

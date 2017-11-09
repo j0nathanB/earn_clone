@@ -8,30 +8,69 @@ body {
   font-family: 'Titillium Web','Helvetica Neue',Helvetica,Arial,sans-serif;
   font-size: 16px;
   color: #404040;
+  background-color: #fafafa;  /* gray */
+  
   line-height: 1.42857143;
   letter-spacing: 1px;
 }
 
+.logo {
+  height: 60px;
+  /* border: 1px solid rgb(219, 17, 17);  /* For debugging */
+}
+
 .menu-container {
-  color: #d6a156;;
+  padding: 0 24px;
+  height: 72px;
+  max-height: 72px;
+  box-sizing: border-box;
+  color: #d6a156;
   background-color: #fff;  /* Blue */
-  padding: 20px 0;
+  width: 100%;
   display: flex;
   justify-content: center;    /* Add this */
+  z-index: 100; 
 }
 
 .menu {
   border: 1px solid rgb(219, 17, 17);  /* For debugging */
-  width: 900px;
+  box-sizing: border-box;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.09);
+}
+
+.menu-center {
+  display: flex;
+  justify-content: flex-start;
+  /*border: 1px solid rgb(17, 194, 156);  /* For debugging */
+  margin: 60px auto;
+  width: 900px;
+  max-width: 984px;
+}
+
+.menu-center-links {
+  display: flex;
+  justify-content: flex-end;  
+  padding: 0 50px 0 0;
+  list-style: none;
+  /*border: 2px dotted rgb(194, 17, 17);  /* For debugging */
+}
+
+.panel {
+  width: 236px;
+  padding-right: 20px;
 }
 
 .profile-container {
-  background-color: #fafafa;  /* gray */
   padding: 20px 0;
   display: flex;
   justify-content: center;    /* Add this */
+  margin: 60px auto;
+  padding: 0 24px;
+  max-width: 984px;
 }
 
 .profile {
@@ -40,3 +79,4 @@ body {
   display: flex;
   justify-content: space-between;
 }
+

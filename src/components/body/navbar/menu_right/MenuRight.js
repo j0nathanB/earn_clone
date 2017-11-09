@@ -1,7 +1,7 @@
 import React from 'react';
 
 const MenuRight = () => (
-  <pre>Menu Right</pre>
+  <a>Menu Right</a>
 )
 
 export default MenuRight;
