@@ -4,9 +4,22 @@
   box-sizing: border-box;
 }
 
-a {
+a.menu-link {
+  color: #d6a156; 
   text-decoration: none;
-  color: #d6a156;
+}
+
+a.panel-link {
+  color: #404040; 
+  font-weight: 300;
+}
+
+a.panel-link:hover {
+  font-weight: 400;
+}
+
+a.panel-link:active {
+  font-weight: 600;
 }
 
 body {
@@ -14,14 +27,12 @@ body {
   font-size: 16px;
   color: #404040;
   background-color: #fafafa;  /* gray */
-  
   line-height: 1.42857143;
   letter-spacing: 1px;
 }
 
 .logo {
   height: 60px;
-  /* border: 1px solid rgb(219, 17, 17);  /* For debugging */
 }
 
 .menu-container {
@@ -74,22 +85,47 @@ body {
 
 .panel {
   width: 236px;
-  padding-right: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: -18px;
+  margin-left: -24px;
+  padding-top: 5px;
+}
+
+.panel-item {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .profile-container {
   padding: 20px 0;
   display: flex;
   justify-content: center;    /* Add this */
-  margin: 60px auto;
-  padding: 0 24px;
+  margin: 50px auto;
+  padding: 0 15px;
   max-width: 984px;
+  /*border: 1px dotted rgb(194, 17, 17);  /* For debugging */
 }
 
 .profile {
   border: 1px solid rgb(194, 17, 17);  /* For debugging */
   width: 900px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
+.profile-info {
+  /*border: 1px solid rgb(194, 17, 17);  /* For debugging */
+}
+
+.info-card {
+  border: 1px solid rgb(194, 17, 17);  /* For debugging */
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.09);
+
+ 
+
+}
