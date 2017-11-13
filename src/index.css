@@ -15,7 +15,8 @@ a.panel-link {
 }
 
 a.panel-link:hover {
-  font-weight: 400;
+  color: #000; 
+  font-weight: 300;
 }
 
 a.panel-link:active {
@@ -120,12 +121,8 @@ body {
   /*border: 1px solid rgb(194, 17, 17);  /* For debugging */
 }
 
-.info-card {
-  border: 1px solid rgb(194, 17, 17);  /* For debugging */
-  width: 500px;
-  background-color: #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.09);
-
- 
-
+.title-anchor {
+  padding-top: 1px;
+  margin-top: -1px;
 }
+
